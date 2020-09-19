@@ -50,7 +50,7 @@ exit;
 <?php
 		  if(isset($found))
 		  {
-		  	echo '<p class="w3-center w3-text-red">Invalid user id or password<br><a href="login.php">Please try again</p>';
+		  	echo '<p class="w3-center w3-text-red">Invalid user id or password<br><a href=".php">Please try again</p>';
 		  }
 		  ?>
  </center>
