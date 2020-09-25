@@ -1,5 +1,5 @@
 <?php
-include("database.php");
+include("config.php");
 extract($_POST);
 
 if(isset($submit))
