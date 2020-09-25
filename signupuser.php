@@ -10,7 +10,7 @@
 <?php
 
 extract($_POST);
-include("database.php");
+include("config.php");
 $rs=mysqli_query($conn,"select * from emp where user_id='$user_id'");
 if (mysqli_num_rows($rs)>0)
 {
