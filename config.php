@@ -42,9 +42,6 @@ $db['default'] = array(
     'failover' => array(),
     'save_queries' => TRUE
 );
-$conn=mysqli_connect($url,$username,$password,"test");
-if(!$conn){
- die('Could not Connect My Sql:' .mysql_error());
-}
+
 ?>
 
