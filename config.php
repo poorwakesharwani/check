@@ -42,6 +42,9 @@ $db['default'] = array(
     'failover' => array(),
     'save_queries' => TRUE
 );
-
+$conn=mysqli_connect("us-cdbr-east-02.cleardb.com","b4ba2e6d48fc10","bfad996f","heroku_8d5ec9c9a1aeb78");
+if(!$conn){
+ die('Could not Connect My Sql:' .mysql_error());
+}
 ?>
 
